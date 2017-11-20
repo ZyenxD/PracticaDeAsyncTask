@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.personal.neycasilla.practicadeasynctask.MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <Button
+        android:id="@+id/button_start"
+        android:text="@string/start"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:textSize="16sp"
+            android:id="@+id/procesando"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:textSize="22sp"
+            android:id="@+id/primo_o_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Space
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</LinearLayout>
